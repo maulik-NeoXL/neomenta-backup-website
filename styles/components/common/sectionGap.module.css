@@ -1,0 +1,21 @@
+.section_gap
+{
+  height: 150px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+  .section_gap
+  {
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .section_gap
+  {
+    height: 75px;
+  }
+}

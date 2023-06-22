@@ -1,0 +1,141 @@
+.contact_form_container
+{
+  /*border: 2px solid blue;*/
+  padding: 250px 0px 0 0px;
+
+}
+
+.contact_form_heading
+{
+  color: #0a3450;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  text-align: left;
+}
+
+.card_wrapper
+{
+  /*border: 2px solid red;*/
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 45px;
+  width: 100%;
+}
+
+.card1
+{
+  border: 1px solid #eef1f3;
+  border-radius: 10px;
+  /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
+  color: black;
+  height: auto;
+  padding: 30px;
+  width: 48%;
+}
+
+.card1:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.card2
+{
+  border: 1px solid #eef1f3;
+  border-radius: 10px;
+  color: black;
+  height: auto;
+  padding: 30px;
+  width: 48%;
+
+}
+
+.card2:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.card_heading
+{
+  color: #0a3450;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card_email
+{
+  color: #607080;
+  margin-top: 13px;
+  text-decoration: underline;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+
+  .contact_form_heading
+  {
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .card_wrapper
+  {
+    display: block;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .card1, .card2
+  {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .card2
+  {
+    margin-top: 20px;
+  }
+}
+
+/*mobile-responsive*/
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+
+  .contact_form_heading
+  {
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .card_wrapper
+  {
+    display: block;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .card1, .card2
+  {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .card2
+  {
+    margin-top: 20px;
+  }
+}
+
+/*Tablet-responsive*/

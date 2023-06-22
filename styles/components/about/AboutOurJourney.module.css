@@ -1,0 +1,88 @@
+.journey_main
+{
+  background: #f5f7fa;
+  height: auto;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.journey_title
+{
+  color: #0a3450;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 80px;
+}
+
+.journey_timeline_section
+{
+  margin-bottom: 50px;
+}
+
+.journey_timeline_slider_arrow_section
+{
+  display: flex;
+  justify-content: center;
+}
+
+.journey_timeline_arrow_main
+{
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.journey_timeline_arrow_main .journey_timeline_btn
+{
+  background: #cad3dd;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 13px;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .journey_main
+  {
+    padding: 30px 0;
+    position: relative;
+  }
+
+  .journey_title
+  {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .journey_timeline_section
+  {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+
+}
+
+/*mobile-responsive*/
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  .journey_main
+  {
+    padding: 30px 0;
+  }
+
+  .journey_title
+  {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+}
+
+/*Tablet-responsive*/

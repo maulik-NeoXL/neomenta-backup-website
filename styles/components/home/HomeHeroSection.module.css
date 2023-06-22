@@ -1,0 +1,246 @@
+.home_hero_main {
+  height: auto;
+  padding-top: 160px;
+  width: 100%;
+}
+
+.home_hero_text .home_hero_primary {
+  color: #0a3450;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.home_desktop_show_tablet_hide_mobile_hide {
+
+  display: block;
+}
+
+.home_desktop_hide_tablet_show_mobile_hide {
+  display: none;
+}
+
+.home_desktop_hide_tablet_hide_mobile_show {
+  display: none;
+}
+
+
+.home_hero_text {
+  text-align: center;
+}
+
+.home_hero_text .home_hero_primary span {
+  font-weight: 300;
+}
+
+.home_hero_text .home_hero_secondary {
+  color: #607080;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.home_hero_secondary_desktop_show_mobile_hide {
+  display: block;
+}
+
+.home_hero_secondary_desktop_hide_mobile_show {
+  display: none;
+}
+
+.home_hero_text .home_hero_secondary:last-child {
+  margin-bottom: 32px;
+}
+
+.home_hero_text .home_hero_secondary span {
+  color: #34a853;
+}
+
+.home_hero_get_started_button {
+  margin-bottom: 64px;
+}
+
+.home_hero_get_started_button .home_hero_started_btn {
+  background: #1976d2;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  outline: none;
+  padding: 10px 25px;
+  transition: 0.4s ease-in-out;
+}
+
+.home_hero_get_started_button .home_hero_started_btn:hover {
+  background: #ffffff;
+  box-shadow: 0 15px 20px rgba(25, 118, 210, 0.07);
+  color: #1976d2;
+  outline: 1px solid #1976d2;
+  transition: 0.3s ease-in-out;
+}
+
+.home_hero_image {
+  display: flex;
+  justify-content: center;
+  /*position: relative;*/
+  width: 100%;
+}
+
+.hero_image_wrapper {
+  height: auto;
+  /*position: relative;*/
+  width: 860px;
+}
+
+.hero_image_wrapper .home_hero_laptop_image {
+  height: auto;
+  width: 100%;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .home_desktop_show_tablet_hide_mobile_hide {
+    display: none;
+  }
+
+  .home_desktop_hide_tablet_show_mobile_hide {
+    display: none;
+  }
+
+  .home_desktop_hide_tablet_hide_mobile_show {
+    display: block;
+  }
+
+  .home_hero_main {
+    height: auto;
+    padding-top: 160px;
+  }
+
+  .home_hero_text {
+    text-align: left;
+  }
+
+  .home_hero_text .home_hero_primary {
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .home_hero_text .home_hero_secondary {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .home_hero_get_started_button .home_hero_started_btn {
+    padding: 10px 25px;
+  }
+
+  .home_hero_get_started_button {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+
+  .home_hero_secondary_desktop_show_mobile_hide {
+    display: none;
+  }
+
+  .home_hero_secondary_desktop_hide_mobile_show {
+    display: block;
+  }
+
+  .home_hero_secondary_desktop_hide_mobile_show .home_hero_secondary {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero_image_wrapper {
+    width: 80%;
+    text-align: center;
+  }
+
+  .home_hero_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+  }
+
+  .home_hero_laptop_mobile {
+    width: 100%;
+  }
+
+  .home_hero_text .home_hero_secondary:last-child {
+    margin-bottom: 16px;
+  }
+
+
+}
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .home_desktop_show_tablet_hide_mobile_hide {
+    display: none;
+  }
+
+  .home_desktop_hide_tablet_show_mobile_hide {
+    display: block;
+  }
+
+  .home_desktop_hide_tablet_hide_mobile_show {
+    display: none;
+  }
+
+
+  .home_hero_text .home_hero_primary {
+    font-size: 42px;
+    margin-bottom: 24px;
+  }
+
+  .home_hero_text .home_hero_secondary {
+    font-size: 18px;
+  }
+
+  .hero_image_wrapper {
+    width: 80%;
+    text-align: center;
+  }
+
+}
+
+/*Tablet-responsive*/
+
+/*above-1920px-screen size*/
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  .home_desktop_show_tablet_hide_mobile_hide {
+    display: block;
+  }
+
+  .home_desktop_hide_tablet_show_mobile_hide {
+    display: none;
+  }
+
+  .home_desktop_hide_tablet_hide_mobile_show {
+    display: none;
+  }
+
+  .hero_image_wrapper {
+    width: 1170px;
+    text-align: center;
+  }
+
+  .home_hero_text .home_hero_primary {
+    font-size: 60px;
+    margin-bottom: 32px;
+  }
+
+  .home_hero_text .home_hero_secondary {
+    width: 44%;
+    margin: 0 auto;
+  }
+}
+
+/*above-1920px-screen size*/

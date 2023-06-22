@@ -1,0 +1,171 @@
+.case_container
+{
+  padding-top: 250px;
+}
+
+.case_wrapper
+{
+  align-items: center;
+  display: flex;
+  height: 470px;
+}
+
+.case_content
+{
+  /*border: 2px solid blue;*/
+  width: 60%;
+}
+
+.case_title
+{
+  /*border: 2px solid violet;*/
+  color: #0a3450;
+  font-size: 48px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.case_desc
+{
+  /*border: 2px solid orange;*/
+  color: #607080;
+  font-size: 20px;
+  margin-top: 45px;
+  width: 100%;
+}
+
+.case_imgbx
+{
+  border: 2px solid #eef1f3;
+  border-radius: 20px;
+  margin-left: 150px;
+  width: 50%;
+}
+
+.case_imgbx:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.case_img
+{
+  /*border: 2px solid yellowgreen;*/
+  height: 50%;
+}
+
+.image
+{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.case_card_content
+{
+  /*border: 2px solid black;*/
+  height: 50%;
+  padding: 20px;
+}
+
+.case_card_title
+{
+  color: #0a3450;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.case_card_desc
+{
+  color: #607080;
+  padding-top: 20px;
+}
+
+.case_info_link
+{
+  align-items: center;
+  color: #1976d2;
+  display: flex;
+  font-weight: 300;
+}
+
+.case_info_link_wrap
+{
+  padding-top: 20px;
+}
+
+.case_info_link_icon
+{
+  margin-left: 10px;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .case_container
+  {
+    padding-top: 24vh;
+  }
+
+  .case_content
+  {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .case_wrapper
+  {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .case_title
+  {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .case_desc
+  {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .case_imgbx
+  {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/*mobile-responsive*/
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  .case_wrapper
+  {
+    height: auto;
+  }
+
+  .case_imgbx
+  {
+    margin-left: 30px;
+  }
+
+  .case_title
+  {
+    font-size: 42px;
+  }
+
+  .case_desc
+  {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
+
+/*Tablet-responsive*/

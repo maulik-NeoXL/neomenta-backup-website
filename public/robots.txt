@@ -1,0 +1,18 @@
+# created : november 2022
+# Author : neoxl
+
+User-agent :*
+
+Disallow: /about
+Disallow: /pricing
+Disallow: /contact
+Disallow: /blog
+Disallow: /blog/automation-for-everyone
+Disallow: /blog/why-neoxl
+Disallow: /blog/toy-company
+Disallow: /case-studies
+Disallow: /team
+Disallow: /
+
+sitemap:
+

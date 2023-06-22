@@ -1,0 +1,315 @@
+.office_container
+{
+  /*border: 3px solid green;*/
+  display: block;
+}
+
+.office_heading
+{
+  color: #0a3450;
+  font-size: 36px;
+  text-align: left;
+}
+
+.office_wrapper
+{
+
+  /*border: 2px solid red;*/
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.office_card
+{
+  border: 1px solid #eef1f3;
+  border-radius: 10px;
+  /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
+  color: black;
+  height: auto;
+  padding: 30px;
+  width: 48%;
+}
+
+.office_card:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.office_card_2
+{
+
+  border: 1px solid #eef1f3;
+  border-radius: 10px;
+  /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
+  color: black;
+  height: 100%;
+  padding: 30px;
+  width: 48%;
+
+}
+
+.office_card_2:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.card_icon_import
+{
+  height: 40px;
+  width: 40px;
+}
+
+.card_icon
+{
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.card_title
+{
+  color: #0a3450;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.card_location_list
+{
+  display: flex;
+  margin-top: 20px;
+}
+
+.card_location_icon_wrapper
+{
+  align-items: center;
+  display: flex;
+}
+
+.card_location_icon
+{
+  align-items: center;
+  background: #f2f4f8;
+  border-radius: 50%;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  margin-left: 0;
+  width: 45px;
+
+}
+
+.card_location_icon > span
+{
+  color: #607080;
+}
+
+.card_location_text_wrapper
+{
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
+}
+
+.card_location_text
+{
+  color: #607080;
+  font-size: 16px;
+  width: 100%;
+
+}
+
+.contact_list_wrapper
+{
+  /*border: 2px solid green;*/
+  display: flex;
+  margin-top: 23px;
+}
+
+.contact_email_wrapper
+{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact_icon_wrapper
+{
+  align-items: center;
+  display: flex;
+  width: 50%;
+}
+
+.contact_icon
+{
+  align-items: center;
+  background: #f2f4f8;
+  border-radius: 50%;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  margin-left: 0;
+  width: 45px;
+  color: #607080;
+}
+
+.contact_text
+{
+  color: #607080;
+  font-size: 16px;
+  margin-left: 25px;
+  width: 60%;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .office_heading
+  {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .office_wrapper
+  {
+    display: block;
+    height: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .office_card
+  {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .card_icon
+  {
+    margin: 0;
+  }
+
+  .card_title
+  {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 0;
+  }
+
+  .card_location_icon
+  {
+    margin-left: 0;
+  }
+
+  .card_location_text
+  {
+    width: 100%;
+  }
+
+  .contact_icon
+  {
+    margin-left: 0;
+  }
+
+  .office_card_2
+  {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .contact_email_wrapper
+  {
+    display: block;
+  }
+
+  .email_icon
+  {
+    margin-left: 0;
+  }
+
+  .email_icon_wrapper
+  {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .contact_icon_wrapper
+  {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  .office_heading
+  {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .office_wrapper
+  {
+    display: block;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .office_card
+  {
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .office_card_2
+  {
+    height: auto;
+    margin-left: 0;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .card_icon
+  {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .card_title
+  {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .card_location_icon
+  {
+    margin-left: 0;
+  }
+
+  .contact_list_wrapper
+  {
+    margin-top: 20px;
+  }
+
+  .contact_icon
+  {
+    margin-left: 0;
+  }
+}
+
+
+

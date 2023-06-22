@@ -1,0 +1,151 @@
+.about_vision_title
+{
+  color: #0a3450;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 30px;
+}
+
+.about_vision_section_main
+{
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about_vision_text_wrapper
+{
+  background: #f5f7fa;
+  border-radius: 10px;
+  padding: 50px;
+  width: 70%;
+}
+
+.about_vision_image_wrapper
+{
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  width: 28%;
+}
+
+.about_vision_text_primary
+{
+  color: #0a3450;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.about_vision_text_wrapper > p:nth-child(2)
+{
+  margin-bottom: 30px;
+}
+
+.about_vision_text_secondary
+{
+  color: #607080;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about_vision_wrapper
+{
+  height: auto;
+  width: 100%;
+}
+
+.about_vision_wrapper .about_vision_image
+{
+  height: auto;
+  width: 100%;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .about_vision_title
+  {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .about_vision_section_main
+  {
+    display: block;
+  }
+
+  .about_vision_image_wrapper
+  {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .about_vision_wrapper
+  {
+    height: auto;
+    width: 100%;
+  }
+
+  .about_vision_text_wrapper
+  {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .about_vision_text_primary
+  {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .about_vision_text_wrapper > p:nth-child(2)
+  {
+    margin-bottom: 20px;
+  }
+}
+
+/*mobile-responsive*/
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  .about_vision_title
+  {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .about_vision_section_main
+  {
+    display: block;
+  }
+
+  .about_vision_image_wrapper
+  {
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .about_vision_wrapper
+  {
+    width: 50%;
+  }
+
+  .about_vision_text_wrapper
+  {
+    padding: 30px;
+    width: 100%;
+  }
+}
+
+/*Tablet-responsive*/
+

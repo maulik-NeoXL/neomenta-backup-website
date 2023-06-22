@@ -1,0 +1,195 @@
+.perks_container
+{
+  /*border: 2px solid red;*/
+}
+
+.perks_wrapper
+{
+  /*border: 2px solid green;*/
+}
+
+.perks_title
+{
+  color: #0a3450;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.perks_card_container
+{
+  /*border: 2px solid blue;*/
+  display: block;
+  margin-top: 50px;
+}
+
+.perks_card_wrapper
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.perks_card_wrapper_2
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.perks_card
+{
+
+  border: 1px solid #eef1f3;
+  border-radius: 10px;
+  color: black;
+  height: auto;
+  margin-right: 24px;
+  padding: 30px;
+  width: 33%;
+}
+
+.perks_card:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.perks_card_2
+{
+  border: 1px solid #eef1f3;
+  border-radius: 10px;
+  color: black;
+  height: auto;
+  padding: 30px;
+  width: 33%;
+}
+
+.perks_card_2:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.card_icon
+{
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+
+.card_icon .card_icon_background
+{
+  align-items: center;
+  background: #f5f7fa;
+  border-radius: 50%;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100px;
+}
+
+
+.card_title
+{
+  color: #0a3450;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 50px;
+  padding-bottom: 9px;
+  text-align: center;
+}
+
+.card_description
+{
+  color: #607080;
+  font-size: 16px;
+  text-align: center;
+}
+
+.perks_title span{
+  color: #1976d2;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .perks_title
+  {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .perks_card_container
+  {
+    margin-top: 30px;
+  }
+
+  .perks_card_wrapper
+  {
+    display: block;
+  }
+
+  .perks_card
+  {
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .card_icon
+  {
+    height: 150px;
+  }
+
+  .perks_card_2
+  {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .perks_card_wrapper_2
+  {
+    display: block;
+    margin-top: 20px;
+  }
+
+}
+
+/*mobile-responsive*/
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  .perks_title
+  {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .perks_card_container
+  {
+    margin-top: 30px;
+  }
+
+  .perks_card
+  {
+    padding: 20px;
+  }
+
+  .card_title
+  {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 16px;
+  }
+
+  .perks_card_2
+  {
+    padding: 20px;
+  }
+}
+
+/*Tablet-responsive*/

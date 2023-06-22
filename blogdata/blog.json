@@ -1,0 +1,123 @@
+{
+  "automation-for-everyone": {
+    "slug": "automation-for-everyone",
+    "meta_image": "/assets/images/blog/blog-detail/automation-for-every-one/automation-for-everyone-meta-image.png",
+    "meta_desc": "Like many, my introduction to WhatsApp was in 2011 via a group invitation from a classmate of yesteryear. I was swooped into this alternate reality where friends, after 20 years, were engaging,",
+    "title": "Automation for everyone",
+    "author": "Bhavesh Soni",
+    "date": "22 Sept 2022",
+    "readtime": "5",
+    "quote": "You're either the one that creates the automation or you're getting automated.",
+    "qoute_author": "Github Founder",
+    "quote_author_image": "/assets/images/blog/blog-detail/automation-for-every-one/github-founder-image.png",
+    "author_image": "/assets/images/blog/blog-detail/blog_footer_image.png",
+    "author_designation": "Founder of neoXL",
+    "description": [
+      {
+        "desc": " Like many, my introduction to WhatsApp was in 2011 via a group invitation from a classmate of yesteryear. I was swooped into this alternate reality where friends, after 20 years, were engaging around the world in a cacophony of interactions, exchanging photos, and life stories, congratulating each other on hard-won life struggles, love attained, and love lost. Among all these interspersed chat messages, I was mesmerized. For our particular universe, I thought the real big bang was the release of WhatsApp, the precursor of our metaverse, the seed of creating an alternate reality. <br> Such was the power of a simple and easy-to-use chat application like WhatsApp. WhatsApp could instantly rekindle the long-lost connections worldwide, leading to many face-to-face gatherings, parties, and business deals. Under this spell, I was convinced that there were larger patterns underneath this frenzy."
+      }, {
+        "title": "The larger pattern",
+        "desc": " When a new input-output device is invented, a new operating system is built to take advantage of this device. Disk operating systems were built around keyboards, GUI operating systems were built around mice, and web OS was built around browsers. Messenger is the input-output device for the mobile web and is propelling the construction of a new operating system, the metaverse. <br> There is this natural progression in the evolution of operating systems; a new operating system makes it easier for an even larger number of users to automate a larger part of their life. For this messenger-led operating system to encompass the whole of humanity, all the devices, and the internet of things under one umbrella, it had to offer distinct advantages over prior innovations. The leap happened when I stopped seeing the messaging as a chat but as a conversation. One would interact within the metaverse through a conversation. The conversation is the input, the output, and the programming language of the metaverse. The conversation - is - the app and the new metaverse would be conversational first before it would be visual."
+      }, {
+        "title": "Pilgrimage",
+        "desc": "Once I convinced myself of this underlying pattern, I had an itch to learn more. I visited India in 2013, where WhatsApp has the most extensive user base and where new ideas in the messaging world get tested. Unlike China, India does not have WeChat, and most Indians don't have desktops. Smartphones are their first computer. WhatsApp is India's most abused software because of its simplicity, ease of use, friction-free onboarding, and no language barriers. WhatsApp enables all kinds of workflows. Think of it this way, for the variety of workflows done in the developed world via email, Indians do them on WhatsApp. <br> WhatsApp is at the center of order flows, maintenance workflows, event management, Excel spreadsheet exchanges, surveys, data collections, field ops – you name it! Indians had found this messaging hammer, and everything looked like nails to them. These enterprise workflows on WhatsApp were crude at best. Like crude emails evolved into structured documents exchanged on the web, which ushered into service-oriented architecture and cloud computing. I thought these chat messages could acquire structure, state, and sharing, leading to a new conversation-based global peer-to-peer operating system. <br>  Even though the enterprise workflows were a small percentage of total information flow on WhatsApp, they were of particular interest to me because of my background. I worked as an enterprise software engineer building large supply chain applications for Fortune 500, and I could visualize the underpinnings of the new conversational operating system. In 2015, I mustered enough courage to leave my job, raised $1.25M from friends and family, and headed to India to build WeChat of India from first principles. Later did I learn that my friends gave me money for me to gain some experience in becoming humble. ",
+        "paragraphImage": "/assets/images/blog/blog-detail/automation-for-every-one/automation-1.png"
+      }, {
+        "title": "Product-market fit",
+        "desc": "After forming the company. We spent four years in India doing product market experiments. We learned a lot about the product, the market, crossing the chasm, blue oceans, and most importantly, the customers and businesses. We assimilated knowledge from 1000+ small and medium enterprises, built a 200 customer pipeline, and deployed the product at roughly 50 enterprises. We even had monthly recurring revenue of $1800 with 1500 daily active users. <br> We learned that mass production and mass distribution, driven by technology, globalization, and massive online stores, have created a large economy of scales that have displaced large swaths of small and medium businesses globally. If only these small businesses had access to automation to evolve and adapt to global and local markets rapidly, would they survive? It's not that small businesses don't want business process automation; the problem is that nobody has figured out how to reach them at scale.<br> In four years, thorough our field experimentation, we figured out the answer to this problem. We found a recurring pattern that would be the building block of an operating system for small and medium enterprises."
+
+      }, {
+        "title": "Fork in the road",
+        "desc": "Through deployment at several enterprises, we proved that some of the least technologically savvy end-users could use enterprise applications because of the messaging interface. Simultaneously, advances in NLP will let us expose automation to even larger segments of society than just simple messaging. The next key problem is modeling the conversation that maps to the customer's reality so that they can build the automation they need, only with the ZERO learning curve. <br> We took the work we had done and the ideas we had developed to <a  href='https://www.google.com/url?q=https%3A%2F%2Fwww.dmagazine.com%2Fpublications%2Fd-ceo%2F2012%2Fjanuary-february%2Fitko-the-triumph-of-lisa-software%2F&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2NmQanN38NxpLn7y3Qli1l' target='_blank'>John Michelsen</a>, an esteemed serial founder who had the ambition to make automation a conversation between people and systems, for instance, personifying the backend system. We <a  href='https://www.google.com/url?q=https%3A%2F%2Fkristasoft.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3Qgef4iP6ZLDHvebRI3XsW' target='_blank'>company</a> the company to implement this <a  href='https://www.google.com/url?q=https%3A%2F%2Fkristasoft.com%2Fblog%2F&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2NF3zdt4ulFtywKCa1jbs-' target='_blank'>new vision</a> and subsequently raised <a  href='https://www.google.com/url?q=https%3A%2F%2Fwww.bizjournals.com%2Fdallas%2Fnews%2F2019%2F12%2F13%2Fant-brains.html&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2N3aXi5SuAyG20iZdYwUhG' target='_blank' > $5M </a> and <a  href='https://www.google.com/url?q=https%3A%2F%2Fwww.businesswire.com%2Fnews%2Fhome%2F20220201005039%2Fen%2FKrista-Software-Raises-15-Million-to-Strengthen-its-AI-led-Intelligent-Automation-Platform&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3gNt_1VdzzjtgiVL1EcTRC' target='_blank' >$15M</a> rounds to implement it.<br> Statistically, every prominent startup should solve just one miracle, more than one, and they could fail. Personifying the backend system is one such miracle, and bringing automation to 400M small and medium enterprises is another miracle. Most small and medium enterprises don't even have a backend system, so I had this fork in the road to decide where I should spend my energies.",
+        "paragraphImage": "/assets/images/blog/blog-detail/automation-for-every-one/automation-2.png"
+      }, {
+        "title": "Automation for everyone",
+        "desc": "The recurring pattern we found in India during our experimentation could be solved if we fuse a backend system with a messaging system. With the fused system, we would have a shot at solving the automation problem for small and medium enterprises. SME automation is the largest whitespace on the planet with the highest impact at the core of society. <br> So we founded a new company, neoXL, to fuse WhatsApp and Excel. neoXL is building a community-driven automation platform for 400 million small and medium enterprises. The platform would provide the end-users with the messaging and Excel spreadsheet user interfaces, programmed through a conversational do-it-yourself kit, to solve unique and novel use cases that are only found in these enterprises. <br> By giving customers the ability to assemble any piece of furniture with the help of just an Allen key, IKEA took furniture building to the masses. neoXL is the Allen key for taking automation to the masses. Messengers have democratized communication. Now it is time to democratize automation."
+
+      }, {
+        "title": "neoXL adventure",
+        "desc": "neoXL team has deep experience with automation and small and medium enterprises. We are fanatic about bringing automation to everyone. To get this vision to reality, we are actively hiring world-class software engineers who can push the boundary of what is possible. We invite you to join the adventure. I know it would be hard, but how else would you get 'humble'?"
+
+      }
+    ]
+  }, "why-neoxl": {
+  "slug": "why-neoxl",
+  "meta_image": "/assets/images/blog/blog-detail/why-neoxl/why-neoxl.png",
+  "meta_desc": "Imagine a future where all small and medium enterprises are entirely automated and collectively have the same capacity to innovate and scale as any successful Global 5000 company.",
+  "title": "Why neoXL?",
+  "author": "Bhavesh Soni",
+  "date": "14 Oct 2022",
+  "readtime": "3",
+  "quote": "I didn't have a computer until I was 19 - but I did have an abacus",
+  "qoute_author": "WhatsApp Founder",
+  "quote_author_image": "/assets/images/blog/blog-detail/why-neoxl/whats-founder-imag.png",
+  "moral": "Imagine a future where all small and medium enterprises are entirely automated and collectively have the same capacity to innovate and scale as any successful Global 5000 company.",
+  "author_image": "/assets/images/blog/blog-detail/blog_footer_image.png",
+  "author_designation": "Founder of neoXL",
+  "description": [
+    {
+      "title": "",
+      "desc": "Imagine a future where citizens can access all government services, utilities, education, food, and daily needs at their fingertips."
+
+    }, {
+      "title": "",
+      "desc": "Imagine an efficiently run central government, state government, and municipalities with inward and outward-facing automation."
+
+    }, {
+      "title": "",
+      "desc": "Imagine your Global 5000 company connected to one conversational backbone integrated into all backend systems."
+
+    }, {
+      "title": "",
+      "desc": "Imagine a future where the whole planet runs on a global conversational backbone, from its most minor constituent to the largest."
+
+    }, {
+      "title": "",
+      "desc": "Imagine a conversational super application where everything is plug and play conversationally."
+
+    }, {
+      "title": "",
+      "desc": "Since the world has not yet converged on such a powerful vision, we are taking the lead and building neoXL to change the underpinnings of automation by fusing messaging with a memory system. We believe this would unleash the messaging interface and morph it into a tireless digital assistant that works on your behalf while you surf the waves of global change and massive dislocation with confidence and ease."
+    }, {
+      "title": "", "desc": "neoXL changes everything. We are evolving the abacus to do calculus. Join us! "
+    }
+  ]
+}, "toy-company": {
+  "slug": "toy-company",
+  "meta_image": "/assets/images/blog/blog-detail/toy-company/toy-company-meta-image.png",
+  "meta_desc": "I have always wondered about the boundary between a toy and a tool. When does a tool become a toy? I have unknowingly referred to Apple products as my phone, my watch, or my mac.",
+  "title": "Toy company",
+  "author": "Bhavesh Soni",
+  "date": "4 Aug 2022",
+  "readtime": "5",
+  "quote": "Make simple things simple, and complex things possible.",
+  "qoute_author": "American computer scientist",
+  "quote_author_image": "/assets/images/blog/blog-detail/toy-company/american-computer-scientist.png",
+  "moral": "I have always wondered about the boundary between a toy and a tool. When does a tool become a toy? I have unknowingly referred to Apple products as my phone, my watch, or my mac. But for other products, it is Microsoft Windows, Dell laptop, or Google search. Apple products feel like toys; other products feel like a tool. My kids don't see Apple as a technology company but as a toy company, the biggest toy company on the planet. Apple makes the toys that snap into each other.",
+  "author_image": "/assets/images/blog/blog-detail/blog_footer_image.png",
+  "author_designation": "Founder of neoXL",
+  "description": [
+    {
+      "title": "",
+      "desc": "The same distinction carries over to mobile apps. Consumer apps like Instagram or TikTok feel like toys, whereas enterprise apps like SalesForce.com feel like tools. A user wants to get out of the SalesForce.com app as quickly as possible, while the same user forgets about time on her WhatsApp. Nobody blamed SalesForce.com apps for dopamine addiction. Business people spoiled by the influence of these consumer apps want their enterprise apps to feel snappy and playful. <br> <br> Most enterprise apps are tools to get the job done with little or no play involved. It would be hard to find people immersed in their business apps and come out refreshed with fresh insights. The business apps would reduce the pain of using them by decreasing the interaction within a business app. These apps would automate processes on your behalf, show you dashboards, scrap screens, use words like AI, and replace you and your insights by making a fragile ecosystem of mechanical automation that cannot withstand the evolution of new business models and information flows."
+    }, {
+      "title": "",
+      "desc": "As Microsoft Exec explained in the video, enterprise apps have to do 1000 things that a typical user doesn't care about. At the same time, the competitive pressure on these enterprises' apps would force them to add even more features making it even harder for users to figure out how to access the functionalities they care about. <br><br> Obviously, this cannot go on. Something would have to give. Some new kind of interface, a new programming model, or a new abstraction that reduces the cognitive load on enterprise app users. One approach would be to bury the app's complexity under a conversational facade. However, this would be just a coping mechanism and even feels like we are regressing to the familiar 'command prompt.'",
+      "videoLink": "https://www.youtube.com/embed/qFpz044SML8"
+    }, {
+      "title": "",
+      "desc": "To truly make a business app that allows you to play with your business and feels like a toy, one has to look at the first toy designed for a business called <a  href='https://www.google.com/url?q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVisiCalc&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0NKrg0QOH6Pk7h-hCGKjX4' target='_blank'> VisiCalc </a>; now, we may call its sibling Excel. I have seen people immersed in their spreadsheets and playing with them for hours. However, spreadsheets are esoteric for regular people, designed for single-person use, and require desktop size screens to navigate and playfully. To bring the playfulness of spreadsheets to the impatient mobile web users, we have to change how they interact with spreadsheets; instead of a keyboard, mouse, and desktop display. Just plain vanilla texting! <br> Let us take this further; I propose a toy app that fuses spreadsheets and messaging. The spreadsheet is in the background, and you are messaging the spreadsheet as if the spreadsheet were a human. This personification of the spreadsheet retains the simplicity of messaging but brings the magic of the spreadsheets to the users bound to their mobile phones."
+    }, {
+      "title": "",
+      "desc": "Let us take an example. Imagine sending your spreadsheet messages about all the food you ate during the day, and in the background, the spreadsheet is updated with a breakdown of macro and micronutrients. Now you have a personal database about your food habits, and you can ask the spreadsheet, 'Compared to last month, how much more carbohydrates did I eat this month.'<br><br> I know what you are thinking; this is just a toy. So let us augment this conversational app a little more without losing the toyness. Let us put all our exercise data into the spreadsheet as well, and why stop there? Let us put our weight, blood pressure, sleep time, wake-up time, TV viewing time, work time, and everything you can imagine. You can use this data to figure out why you gained 3 pounds last week, conversationally."
+    }, {
+      "title": "",
+      "desc": "This whole field of <a  href='https://www.google.com/url?q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FQuantified_self&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0MHuDdpZUMKCYat6nhVNdi' target='_blank'>quantified self</a> gets a boost through our toy app, but let us not stop here; let us imagine this toy app as the automation foundation for small and medium enterprises. There are 400 million micro, small and medium enterprises desperate for automation who would welcome this new abstraction. There is no learning curve for these adopters, and our toy would be low cost, easy to change, and quick to evolve with their business, just like spreadsheets. <br> We can create a conversational do-it-yourself-kit to program spreadsheets and make it easy to create conversational apps. On top of this platform, we can build a community of 10 million conversational app developers who would automate these hard-to-reach 400 million MSMEs. We foresee this automation approach perfected within the dynamic and competitive space of 400 million MSMEs to become standard practice for the Global 5000 companies with a large community of developers integrating their legacy enterprise apps into this global conversational backbone."
+    }, {
+      "title": "",
+      "desc": "If you humor us for a moment, we can build the next trillion-dollar toy company! Anyone!! <br> Every regular human brain would be stretched beyond its cognitive ability to comprehend the world evolving at an exponential pace. This cognitively loaded wetware would need assistance from some external hardware to augment its processing capacity. We believe creating an alternate <a  href='https://www.google.com/url?q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHierarchical_temporal_memory&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw04lFYFA0iq_7csdPBln3XA' target='_blank'> memory system </a> that records, remembers, suggests, and guides us through our life choices is a survival necessity both in business and personal life. We are building such a memory system. <br> Want to prevent an Orwellian nightmare and take the fight to our AI overlords? Join us!"
+    }
+  ]
+}
+}
+

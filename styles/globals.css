@@ -1,0 +1,298 @@
+html,
+body
+{
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+}
+::selection {
+  color: #fff;
+  background: #6e92b7;
+}
+a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: light)
+{
+  html
+  {
+    color-scheme: Dark;
+  }
+
+  body
+  {
+    background: white;
+  }
+}
+
+/*Container-style*/
+@media screen and (min-width: 1920px) and (max-width: 2560px)
+{
+  .Container
+  {
+    max-width: 1440px;
+  }
+}
+
+/*Container-style*/
+
+/*Home-FAQ-section-accordian-style*/
+
+.Mui-expanded .MuiCollapse-hidden
+{
+  border-bottom: 1px solid #eef1f3;
+  border-radius: 10px;
+}
+
+.MuiPaper-root.MuiAccordion-root::before
+{
+  height: 0;
+}
+
+.MuiButtonBase-root.Mui-expanded
+{
+  box-shadow: 0 20px 80px rgba(202, 211, 221, 0.2);
+}
+
+.MuiCollapse-root.MuiCollapse-entered
+{
+  box-shadow: 0 20px 80px rgba(202, 211, 221, 0.2);
+}
+
+.MuiAccordion-gutters::before
+{
+  background-color: transparent !important;
+}
+
+.MuiAccordion-root
+{
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.MuiAccordionSummary-root
+{
+  height: 60px;
+}
+
+/*Home-FAQ-section-accordian-style*/
+
+/*About-Our-journey-TimeLine-style*/
+.MuiStepLabel-root .MuiStepLabel-label.MuiStepLabel-alternativeLabel
+{
+  color: #1976d2;
+  /*position: absolute;*/
+  /*right: 40px;*/
+  /*top: -45px;*/
+}
+
+.MuiStepLabel-iconContainer
+{
+  cursor: pointer;
+}
+
+/*About-Our-journey-TimeLine-style*/
+
+/*Pricing-Table-style*/
+.mask_box .MuiButton-root
+{
+  background: transparent;
+  border-radius: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  height: 40px;
+  padding-top: 10px;
+  text-transform: none;
+  transition: all 0.2s 0.1s ease;
+  width: 100px;
+}
+
+.MuiButton-root:hover
+{
+  background: transparent;
+}
+
+.mask_box .MuiButton-root:hover
+{
+  background: transparent;
+  opacity: 0.8;
+}
+
+/*mui-tabpenal-section-style*/
+.MuiTabs-flexContainer .MuiTab-root
+{
+  background: #e7eaed;
+  border-radius: 30px;
+  color: #0a3450;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-left: 30px;
+  text-transform: none;
+}
+
+.MuiTabs-flexContainer .MuiTab-root.Mui-selected
+{
+  background: #1976d2;
+  border: none;
+  color: #ffffff;
+
+}
+
+.MuiTabs-flexContainer .MuiTab-root:first-child
+{
+  margin-left: 0;
+}
+
+.MuiBox-root
+{
+  border-bottom: none;
+}
+
+.MuiTabPanel-root
+{
+  padding: 0;
+}
+
+/*mui-tabpenal-section-style*/
+
+/*Pricing-Table-style*/
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  /*home-faq-section*/
+  .MuiAccordionSummary-root
+  {
+    height: 70px;
+  }
+
+  /*home-faq-section*/
+}
+
+/*Tablet-responsive*/
+
+/*Tablet-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  /*common-css*/
+  h1, h2, h3, h4, h5, h6, p
+  {
+    line-height: 1.5;
+  }
+
+  /*common-css*/
+  /*Header-style*/
+  .navbar-toggler
+  {
+    border: none;
+  }
+
+  .navbar-toggler:focus
+  {
+    border: none;
+    box-shadow: none;
+  }
+
+  .navbar-collapse
+  {
+    background: #ffffff;
+    /*border: 2px solid red;*/
+    flex-basis: unset;
+    flex-grow: unset;
+    height: 100vh;
+    padding-top: 100px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /*Header-style*/
+  /*common-css*/
+  /*Home-page*/
+  /*FAQ-accoridian*/
+  .MuiAccordion-root
+  {
+    margin-bottom: 25px;
+  }
+
+  .MuiAccordion-root:last-child
+  {
+    margin-bottom: 0;
+  }
+
+  .MuiAccordionSummary-root
+  {
+    height: 86px;
+  }
+
+  /*FAQ-accoridian*/
+  /*Home-page*/
+  /*pricing-page*/
+  /*price-tab-panel*/
+  .MuiTabs-scrollButtons
+  {
+    align-items: center;
+    display: flex;
+  }
+
+  .pricing_muiTab .MuiSvgIcon-root
+  {
+    color: #1976d2;
+  }
+
+  .pricing_muiTab .MuiTabs-flexContainer .MuiTab-root
+  {
+    margin-left: 10px;
+  }
+
+  .pricing_muiTab .MuiTab-root
+  {
+    min-height: auto;
+    padding: 5px 10px;
+  }
+
+  .pricing_muiTab .MuiTabs-scroller
+  {
+    align-items: center;
+    display: flex;
+  }
+
+  /*price-tab-panel*/
+  /*price-compare-table*/
+  .MuiSvgIcon-colorSuccess
+  {
+    font-size: 1rem;
+  }
+
+  /*price-compare-table*/
+  /*pricing-page*/
+}
+
+/*Tablet-responsive*/
+

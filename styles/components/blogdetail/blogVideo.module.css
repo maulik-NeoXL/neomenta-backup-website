@@ -1,0 +1,24 @@
+.blog_video_wrapper
+{
+  height: auto;
+  width: 100%;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .blog_video_wrapper
+  {
+    height: auto;
+    width: 100%;
+  }
+
+  .iframe_wrapper
+  {
+    height: auto;
+    width: 100%;
+  }
+}
+
+/*mobile-responsive*/
+

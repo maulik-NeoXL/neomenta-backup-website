@@ -1,0 +1,168 @@
+.blog_subscription_container
+{
+  height: auto;
+  padding: 0 100px;
+  width: 100%;
+}
+
+.blog_subscription_main
+{
+  background: #f0f2f5;
+  border-radius: 20px;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  padding: 30px 30px 30px 50px;
+  width: 100%;
+}
+
+.blog_subscription_main .blog_text_box_main
+{
+  align-items: center;
+  display: flex;
+}
+
+.blog_subscription_main .blog_text_box_main .blog_text_box_wrapper
+{
+  height: auto;
+  width: 529px;
+}
+
+.reach_out_first
+{
+  color: #0a3450;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+.reach_out_second
+{
+  color: #0a3450;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 5px;
+
+}
+
+.reach_out_link
+{
+  color: #1976d2;
+  cursor: pointer;
+
+}
+
+.blog_image_box_main
+{
+  align-items: center;
+  /*border: 2px solid blue;*/
+  display: flex;
+}
+
+.blog_image_wrapper
+{
+  /*border: 2px solid red;*/
+  height: auto;
+  text-align: center;
+  width: 220px;
+}
+
+.blog_image_wrapper .blog_subscription_card_image
+{
+  height: auto;
+  width: 80%;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .blog_subscription_container
+  {
+    padding: 0;
+  }
+
+  .blog_subscription_main
+  {
+    display: block;
+    padding: 30px 20px;
+  }
+
+  .blog_text_primary
+  {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .blog_subscription_main .blog_text_box_main .blog_text_box_wrapper
+  {
+    width: 100%;
+  }
+
+  .blog_input_wrapper
+  {
+    width: 100%;
+  }
+
+  .blog_image_box_main
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .blog_image_box_main .blog_image_wrapper
+  {
+    width: 60%;
+  }
+
+  .reach_out_first
+  {
+    font-size: 18px;
+  }
+
+  .reach_out_second
+  {
+    font-size: 18px;
+  }
+}
+
+/*mobile-responsive*/
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  .blog_subscription_container
+  {
+    padding: 0 10px;
+  }
+
+  .blog_subscription_main
+  {
+    padding: 20px;
+  }
+
+  .blog_subscription_main .blog_text_box_main .blog_text_box_wrapper
+  {
+    width: 450px;
+  }
+
+  .blog_text_primary
+  {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .blog_input_wrapper
+  {
+    width: 420px;
+  }
+
+  .blog_image_wrapper
+  {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+/*Tablet-responsive*/

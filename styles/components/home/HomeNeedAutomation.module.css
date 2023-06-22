@@ -1,0 +1,184 @@
+.home_need_automation_title
+{
+  color: #0a3450;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 50px;
+  padding-bottom: 50px;
+}
+
+.home_need_automation_box
+{
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-items: center;
+}
+
+.home_need_automation_box_image_wrapper
+{
+  height: auto;
+  width: 100%;
+}
+
+.home_need_automation_image
+{
+  border-radius: 10px;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.home_need_automation_text_box
+{
+  /*border: 2px solid red;*/
+  align-self: center;
+  display: flex;
+}
+
+.home_need_automation_box_gap
+{
+
+}
+
+.home_need_automation_inside_box_spacing
+{
+  margin-bottom: 39px;
+}
+
+.home_need_automation_title_spacing
+{
+  margin-bottom: 15px;
+}
+
+.home_need_automation_inside_box_title
+{
+  color: #0a3450;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.home_need_automation_inside_box_desc
+{
+  color: #607080;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .home_need_automation_title
+  {
+    font-size: 24px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+  }
+
+  .home_need_automation_box
+  {
+    flex-wrap: wrap;
+  }
+
+  .home_need_automation_box_image_wrapper
+  {
+    height: auto;
+    width: 100%;
+  }
+
+  .home_need_automation_text_box
+  {
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+
+  .home_need_automation_inside_box_title
+  {
+    /*border: 2px solid blue;*/
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 14px;
+  }
+
+  .home_need_automation_title_spacing
+  {
+    margin-bottom: 10px;
+  }
+
+  .home_need_automation_box_gap
+  {
+    margin-left: 0;
+  }
+
+  .home_need_automation_inside_box_desc
+  {
+    /*border: 2px solid red;*/
+    width: 100%;
+  }
+
+  .home_need_automation_inside_box_spacing
+  {
+    margin-bottom: 20px;
+  }
+}
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  .home_need_automation_title
+  {
+    font-size: 28px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+  }
+
+  .home_need_automation_box
+  {
+    flex-wrap: wrap;
+  }
+
+  .home_need_automation_box_image_wrapper
+  {
+    height: auto;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .home_need_automation_text_box
+  {
+    display: block;
+  }
+
+  .home_need_automation_box_gap
+  {
+    display: flex;
+    margin-left: 0;
+  }
+
+  .home_need_automation_inside_box_desc
+  {
+    width: 100%;
+  }
+
+  .home_need_automation_inside_box_mob_space
+  {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .home_need_automation_text_box .home_need_automation_inside_box_mob_space:nth-child(3), .home_need_automation_text_box .home_need_automation_inside_box_mob_space:nth-child(4)
+  {
+    margin-bottom: 0;
+  }
+
+  .home_need_automation_inside_box_spacing
+  {
+    margin-bottom: 0;
+  }
+}
+
+/*Tablet-responsive*/

@@ -1,0 +1,190 @@
+.study_container
+{
+  /*border: px solid green;*/
+}
+
+.study_wrapper
+{
+  /*border: 2px solid red;*/
+}
+
+.study_title
+{
+  color: #0a3450;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.study_blog_wrapper
+{
+  /*border: 2px solid cyan;*/
+  display: flex;
+  margin-top: 50px;
+}
+
+.study_blog_div
+{
+  border: 2px solid #eef1f3;
+  border-radius: 20px;
+  height: 420px;
+  margin-right: 24px;
+}
+
+.study_blog_div:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.study_blog_div_2
+{
+  border: 2px solid #eef1f3;
+  border-radius: 20px;
+  height: 420px;
+}
+
+.study_blog_div_2:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s ease-in-out;
+}
+
+.study_blog_imgDiv
+{
+  color: #0a3450;
+  font-size: 36px;
+  font-weight: 600;
+  height: 50%;
+  width: 100%;
+}
+
+.image
+{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.study_content
+{
+  margin-top: 20px;
+  padding-left: 20px;
+
+}
+
+.study_content_title
+{
+  color: #0a3450;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.study_desc
+{
+  color: #607080;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.study_info_link
+{
+  align-items: center;
+  color: #1976d2;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.study_info_link_wrap
+{
+  padding: 20px 0;
+
+}
+
+.study_info_link_icon
+{
+  margin-left: 10px;
+}
+
+/*mobile-responsive*/
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+  .study_title
+  {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .study_blog_wrapper
+  {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .study_blog_div
+  {
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .study_blog_div_2
+  {
+    height: auto;
+  }
+}
+
+/*mobile-responsive*/
+
+/*Tablet-responsive*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{
+  .study_title
+  {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .study_blog_wrapper
+  {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .study_blog_div
+  {
+    height: auto;
+    margin-right: 0;
+    width: 32%;
+  }
+
+  .study_blog_div_2
+  {
+    height: auto;
+    width: 32%;
+  }
+
+  .study_blog_imgDiv
+  {
+    font-size: 28px;
+    height: auto;
+    line-height: 1.5;
+  }
+
+  .image
+  {
+    object-fit: contain;
+  }
+
+  .study_desc
+  {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 20px;
+  }
+}
+
+/*Tablet-responsive*/
